@@ -27,7 +27,7 @@ function HomeScreen({navigation}) {
         title="Add New User"
         onPress={() => navigation.navigate('AddUser')}
       />
-      <Button title="View Users" />
+      <Button title="Users" onPress={() => navigation.navigate('Users')} />
     </View>
   );
 }
